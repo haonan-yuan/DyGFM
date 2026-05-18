@@ -1,0 +1,100 @@
+alternating_cycles:
+  desc: ''
+  sort: 18
+  value: 1
+attn_mode:
+  desc: ''
+  sort: 10
+  value: prod
+base_dir:
+  desc: ''
+  sort: 20
+  value: /root/autodl-tmp/DyGFM/dynamic
+batch_size:
+  desc: ''
+  sort: 11
+  value: 2000
+data_dir:
+  desc: ''
+  sort: 21
+  value: /root/autodl-tmp/DyGFM/dynamic/data
+dataset:
+  desc: ''
+  sort: 0
+  value: wikipedia
+dropout:
+  desc: ''
+  sort: 9
+  value: 0.1
+edge_feat_dim:
+  desc: ''
+  sort: 4
+  value: 172
+epochs_per_domain:
+  desc: ''
+  sort: 17
+  value: 1
+eval_steps:
+  desc: ''
+  sort: 15
+  value: 10
+features_dir:
+  desc: ''
+  sort: 23
+  value: /root/autodl-tmp/DyGFM/dynamic/data/features
+freeze_adapter:
+  desc: ''
+  sort: 16
+  value: true
+gpu:
+  desc: ''
+  sort: 2
+  value: 0
+l2_coef:
+  desc: ''
+  sort: 13
+  value: 0.0
+lr:
+  desc: ''
+  sort: 12
+  value: 0.0001
+node_feat_dim:
+  desc: ''
+  sort: 3
+  value: 172
+normal_time_dir:
+  desc: ''
+  sort: 22
+  value: /root/autodl-tmp/DyGFM/dynamic/data/normal_time_pt
+num_heads:
+  desc: ''
+  sort: 8
+  value: 2
+num_layers:
+  desc: ''
+  sort: 7
+  value: 1
+num_neighbors:
+  desc: ''
+  sort: 19
+  value: 5
+patience:
+  desc: ''
+  sort: 14
+  value: 50
+save_path:
+  desc: ''
+  sort: 24
+  value: /root/autodl-tmp/DyGFM/dynamic/save_model/tgat_wikipedia_2026-05-17_17-03-48_phase1.pt
+seed:
+  desc: ''
+  sort: 1
+  value: 39
+time_dim:
+  desc: ''
+  sort: 5
+  value: 172
+unify_dim:
+  desc: ''
+  sort: 6
+  value: 64
