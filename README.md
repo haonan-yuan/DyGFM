@@ -1,7 +1,5 @@
 # DyGFM
 
-**[中文说明](README_zh.md)**
-
 **DyGFM** (Dynamic Graph Foundation Model) is a three-stage pipeline for temporal graph learning: **static GCN pre-training** → **dynamic TGAT pre-training (two phases)** → **downstream fine-tuning** with MoE routing and conditional prompts.
 
 Supported downstream datasets: **genre**, **mooc**, **reddit**, **wikipedia**.
@@ -307,15 +305,3 @@ Path resolution is centralized in [`paths.py`](paths.py); scripts do not rely on
 - [Static pre-training](static/README.md)
 - [Dynamic pre-training](dynamic/README.md)
 - [Fine-tuning](fine_tune/README.md)
-
----
-
-## Citation
-
-If you use this code, please cite the corresponding paper (bibtex to be added).
-
----
-
-## License
-
-Please refer to the license file in this repository (if applicable).
